@@ -3,15 +3,15 @@ package cn.itcast.bean;
 public class User {
 
 	//hibernate要求实体类必须有一个属性是唯一的
-	private int uid;
+	private int id;
 	private String username;
 	private String password;
 	private String address;
-	public int getUid() {
-		return uid;
+	public int getId() {
+		return id;
 	}
-	public void setUid(int uid) {
-		this.uid = uid;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getUsername() {
 		return username;
